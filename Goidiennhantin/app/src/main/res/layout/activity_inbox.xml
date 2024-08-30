@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inbox">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".Inbox">
+    <TextView
+        android:id="@+id/nhapSo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="          Nhập số điện thoại"
+        android:textSize="30dp"
+        android:background="#034df5"
+        android:textColor="#FFFFFF"></TextView>
+
+    <EditText
+        android:id="@+id/edtsms"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="45dp"></EditText>
+
+    <Button
+        android:id="@+id/btninbox"
+        android:layout_width="220dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Nhắn tin"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"></Button>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="220dp"
+        android:layout_gravity="center"
+        android:text="Trở về"
+        android:textSize="25dp"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_height="0dp"></Button>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
