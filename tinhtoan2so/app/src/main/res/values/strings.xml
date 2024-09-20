@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">tinhtoan2so</string>
+    <string name="a">Số A</string>
+    <string name="b">Số B</string>
+    <string name="result">Result</string>
+    <string name="plus">Tổng hai số</string>
+    <string name="minus">Hiệu hai số</string>
+    <string name="multiply">Tích hai số</string>
+    <string name="divide">Thương hai số</string>
+    <string name="ucln">Ước chung lớn nhất</string>
+    <string name="thoat">Thoát chương trình</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        tools:context=".MainActivity">
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_marginRight="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Fahrenheit:"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/txtFar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+            android:layout_marginRight="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Celsius:"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/txtCel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btncel"
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:text="Convert To Celsius"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/button_br"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/btnfar"
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:background="@drawable/button_br"
+            android:text="Convert To Fahrenheit"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+            <Button
+                android:id="@+id/btnclean"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_br"
+                android:text="Clean"
+                android:textSize="28sp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

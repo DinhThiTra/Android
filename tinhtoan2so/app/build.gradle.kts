@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lab011"
+    namespace = "com.example.tinhtoan2so"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.lab011"
+        applicationId = "com.example.tinhtoan2so"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -37,8 +37,8 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.firebase.inappmessaging)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation(kotlin("script-runtime"))
 }
